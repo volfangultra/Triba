@@ -1,0 +1,17 @@
+li{
+	margin-bottom: 3rem;
+	font-size:calc(1rem + 1vw);
+}
+
+a{
+	text-decoration: none;
+	color:var(--dots);
+}
+
+a:hover{
+	color:var(--dots);
+}
+
+ul{
+	list-style: none;
+}

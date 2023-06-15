@@ -1,0 +1,53 @@
+:root{
+	--main:black;
+	--text:white;
+	--header:#191919;
+	--player-1:#2D4263;
+	--player-2:#C84B31;
+	--dots: #ECDBBA;
+
+}
+
+.glavno{
+	height:100%;
+}
+
+body{
+	background-color: var(--main);
+}
+
+*{
+	color:var(--text);
+}
+
+header{
+	background-color: var(--header);
+}
+
+.btn{
+	height:calc(5rem + 8vw);
+	width: calc(10rem + 15vw);
+	font-size:calc(1rem + 1vw);
+	background-color:var(--header);
+	border:none;
+	border-radius:1rem;
+	color:white;
+}
+
+
+.btn:focus, .btn:hover, .btn:active{
+	background-color: var(--player-1);
+	border:none;
+	outline:none;
+	box-shadow: none;
+	color:var(--text);
+}
+
+.dropdown-item{
+	font-size:calc(1rem + 1vw);
+}
+
+header a, header a:hover{
+	text-decoration: none;
+	color:var(--dots);
+}
